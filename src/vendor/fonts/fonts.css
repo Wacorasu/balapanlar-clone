@@ -1,0 +1,15 @@
+@font-face {
+    src: url(./Montserrat/Semibold/Montserrat-SemiBold.ttf) format("ttf"),
+         url(./Montserrat/Semibold/Montserrat-SemiBold.woff) format("woff"),
+         url(./Montserrat/Semibold/Montserrat-SemiBold.woff2) format("woff2");
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(./Montserrat/Medium/Montserrat-Medium.ttf) format("ttf"),
+         url(./Montserrat/Medium/Montserrat-Medium.woff) format("woff"),
+         url(./Montserrat/Medium/Montserrat-Medium.woff2) format("woff2");
+    font-family: "Montserrat";
+    font-weight: 500;
+}
