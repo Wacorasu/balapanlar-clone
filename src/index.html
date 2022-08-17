@@ -20,11 +20,7 @@
     <header class="header">
       <div class="header__container">
         <a href="/" class="header__logo-box">
-          <img
-            src="<%=require('./images/logotype.jpg')%>"
-            alt="Логтип Balapanlar"
-            class="header__logo"
-          />
+					<div class="header__logo"></div>
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -45,8 +41,35 @@
             </li>
           </ul>
         </nav>
-        <button class="header__button">Записаться на курсы</button>
+        <button type="button" class="header__button">Записаться на курсы</button>
+				<button type="button" class="header__burger-btn"></button>
       </div>
+			<div class="burger-menu">
+				<a href="/" class="header__logo-box burger-menu__logo-box">
+					<div class="header__logo burger-menu__logo"></div>
+        </a>
+        <nav class="header__nav burger-menu__nav">
+          <ul class="header__nav-list burger-menu__nav-list">
+            <li class="header__nav-item burger-menu__nav-item">
+              <a href="#" class="header__nav-link burger-menu__nav-link">Наши курсы</a>
+            </li>
+            <li class="header__nav-item burger-menu__nav-item">
+              <a href="#" class="header__nav-link burger-menu__nav-link">О нас</a>
+            </li>
+            <li class="header__nav-item burger-menu__nav-item">
+              <a href="#" class="header__nav-link burger-menu__nav-link">Команда</a>
+            </li>
+            <li class="header__nav-item burger-menu__nav-item">
+              <a href="#" class="header__nav-link burger-menu__nav-link">Как нас найти</a>
+            </li>
+            <li class="header__nav-item burger-menu__nav-item">
+              <a href="#" class="header__nav-link burger-menu__nav-link">Поддержать проект</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header__button burger-menu__button">Записаться на курсы</button>
+				<button type="button" class="burger-menu__close-button"></button>
+			</div>
     </header>
 
     <main class="content">
