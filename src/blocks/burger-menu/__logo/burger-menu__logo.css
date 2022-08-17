@@ -1,0 +1,6 @@
+.burger-menu__logo {
+  background-image: url("../../../images/logotype.jpg");
+  width: 100px;
+  height: unset;
+  aspect-ratio: 1/1;
+}
