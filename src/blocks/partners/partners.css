@@ -1,0 +1,14 @@
+.partners {
+    max-width: 1440px;
+    min-width: 320px;
+    padding: 80px calc((100% - 885px)/2) 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .partners {
+    padding: 30px 15px;
+  }
+}
