@@ -1,0 +1,9 @@
+.horiz-scroll__title_place_principles {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 156px);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+}

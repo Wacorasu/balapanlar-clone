@@ -19,3 +19,12 @@
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
 @import url(../blocks/burger-menu/__close-button/burger-menu__close-button.css);
 @import url(../blocks/burger-menu/__button/burger-menu__button.css);
+@import url(../blocks/horiz-scroll/horiz-scroll.css);
+@import url(../blocks/horiz-scroll/__card/horiz-scroll__card.css);
+@import url(../blocks/horiz-scroll/__card/_place/horiz-scroll__card_place_principles.css);
+@import url(../blocks/horiz-scroll/__image/horiz-scroll__image.css);
+@import url(../blocks/horiz-scroll/__subtitle/horiz-scroll__subtitle.css);
+@import url(../blocks/horiz-scroll/__subtitle/_place/horiz-scroll__subtitle_place_principles.css);
+@import url(../blocks/horiz-scroll/__title/horiz-scroll__title.css);
+@import url(../blocks/horiz-scroll/__title/_place/horiz-scroll__title_place_principles.css);
+@import url(../blocks/horiz-scroll/__transform/horiz-scroll__transform.css);

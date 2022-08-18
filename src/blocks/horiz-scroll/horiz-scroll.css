@@ -1,0 +1,10 @@
+.horiz-scroll {
+  display: flex;
+  overflow: hidden;
+  background-color: #AE46FF;
+  padding: 176px 0 160px;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+}

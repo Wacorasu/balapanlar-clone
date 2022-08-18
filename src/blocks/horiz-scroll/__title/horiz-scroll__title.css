@@ -1,0 +1,5 @@
+.horiz-scroll__title {
+  margin: 0;
+  font-style: normal;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
