@@ -1,0 +1,20 @@
+.lead__telegram {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ae46FF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    width: 83.3%;
+    height: 72px;
+    border-radius: 60px;
+}
+
+@media (max-width: 1024px) {
+    .lead__telegram {
+        display: none;
+    }
+}
