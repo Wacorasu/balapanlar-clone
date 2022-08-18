@@ -1,3 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__photo/lead__photo.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__button/lead__button.css);
+@import url(../blocks/lead/__telegram/lead__telegram.css);
+@import url(../blocks/lead/__telegram-graphics/lead__telegram-graphics.css);
+@import url(../blocks/lead/__telegram-wrapper/lead__telegram-wrapper.css);
+@import url(../blocks/lead/__telegram-text/lead__telegram-text.css);
+@import url(../blocks/lead/__telegram-button/lead__telegram-button.css);
+@import url(../blocks/purpose/purpose.css);
+@import url(../blocks/purpose/__text/purpose__text.css);
