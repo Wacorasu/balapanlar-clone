@@ -1,0 +1,25 @@
+.lead__photo {
+    height: 852px;
+    width: 100%;
+    border-radius: 60px;
+    background-image: url(../../../images/leadphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media (max-width: 768px) {
+    .lead__photo {
+        height: 700px;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__photo {
+        height: 562px;
+        border-radius: 30px;
+    }
+}
