@@ -4,4 +4,7 @@
     line-height: 22px;
     letter-spacing: -0.5px;
     color: #fff;
+    max-width: 750px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }

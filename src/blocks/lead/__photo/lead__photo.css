@@ -6,6 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 @media (max-width: 768px) {

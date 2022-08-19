@@ -1,8 +1,8 @@
 .lead__button {
     border-radius: 50px;
     background-color: #ff7628;
-    width: 395px;
-    height: 104px;
+    min-width: 395px;
+    min-height: 104px;
     font-weight: 600;
     font-size: 28px;
     line-height: 104px;
@@ -11,10 +11,12 @@
     letter-spacing: -0.5px;
     color: #fff;
     margin: 80px auto 0 auto;
-    padding: 0;
+    padding: 0 20px 0 20px;
     border: 0;
     transition: background-color .5s ease;
     text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .lead__button:hover {
@@ -23,8 +25,8 @@
 
 @media (max-width: 768px) {
     .lead__button {
-        width: 300px;
-        height: 75px;
+        min-width: 300px;
+        min-height: 75px;
         font-size: 20px;
         line-height: 75px;
     }
@@ -32,8 +34,8 @@
 
 @media (max-width: 320px) {
     .lead__button {
-        width: 224px;
-        height: 52px;
+        min-width: 224px;
+        min-height: 52px;
         font-size: 16px;
         line-height: 52px;
         margin-top: 30px;
