@@ -1,6 +1,7 @@
 .partners {
     max-width: 1440px;
     min-width: 320px;
+    background-color: #FFF;
     padding: 80px calc((100% - 885px)/2) 120px;
     display: flex;
     flex-direction: column;
