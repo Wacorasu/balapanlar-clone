@@ -1,0 +1,22 @@
+.partners__border {
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .partners__border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 290px;
+      height: 200px;
+      border: 2px solid #EAF0FF;
+      border-radius: 30px;
+      box-sizing: border-box;
+      visibility: visible;
+      margin-bottom: 10px;
+    }
+  
+    .partners__border:last-of-type {
+      margin-bottom: 0;
+    }
+  }
