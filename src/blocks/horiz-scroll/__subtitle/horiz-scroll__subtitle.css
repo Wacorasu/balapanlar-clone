@@ -1,5 +1,7 @@
 .horiz-scroll__subtitle {
-  margin: 40px 0 0;
+  margin: 0;
+  font-weight: 600;
   font-style: normal;
+  letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }

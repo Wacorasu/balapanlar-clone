@@ -1,0 +1,11 @@
+.horiz-scroll__card-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .horiz-scroll__card-container {
+    flex-direction: column;
+  }
+}

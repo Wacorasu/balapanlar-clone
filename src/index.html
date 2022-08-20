@@ -20,7 +20,7 @@
     <header class="header">
       <div class="header__container">
         <a href="/" class="header__logo-box">
-					<div class="header__logo"></div>
+          <div class="header__logo"></div>
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -41,35 +41,49 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="header__button">Записаться на курсы</button>
-				<button type="button" class="header__burger-btn"></button>
+        <button type="button" class="header__button">
+          Записаться на курсы
+        </button>
+        <button type="button" class="header__burger-btn"></button>
       </div>
-			<div class="burger-menu">
-				<a href="/" class="header__logo-box burger-menu__logo-box">
-					<div class="header__logo burger-menu__logo"></div>
+      <div class="burger-menu">
+        <a href="/" class="header__logo-box burger-menu__logo-box">
+          <div class="header__logo burger-menu__logo"></div>
         </a>
         <nav class="header__nav burger-menu__nav">
           <ul class="header__nav-list burger-menu__nav-list">
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Наши курсы</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Наши курсы</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">О нас</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >О нас</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Команда</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Команда</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Как нас найти</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Как нас найти</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Поддержать проект</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Поддержать проект</a
+              >
             </li>
           </ul>
         </nav>
-        <button type="button" class="header__button burger-menu__button">Записаться на курсы</button>
-				<button type="button" class="burger-menu__close-button"></button>
-			</div>
+        <button type="button" class="header__button burger-menu__button">
+          Записаться на курсы
+        </button>
+        <button type="button" class="burger-menu__close-button"></button>
+      </div>
     </header>
 
     <main class="content">
@@ -79,49 +93,55 @@
       <section class="about"></section>
       <section class="partners"></section>
       <section class="principles">
-
         <div class="horiz-scroll">
+          <h4 class="horiz-scroll__title horiz-scroll__title_place_principles">
+            Наши принципы
+          </h4>
 
-          <h4 class="horiz-scroll__title horiz-scroll__title_place_principles">Наши принципы</h4>
+          <ul class="horiz-scroll__card-container">
+            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
+              <img
+                src="<%=require('./images/actualknowledge.png')%>"
+                alt="Актуальные знания и навыки"
+                class="horiz-scroll__image"
+              />
 
-          <div class="horiz-scroll__card horiz-scroll__card_place_principles horiz-scroll__transform">
+              <h2
+                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
+              >
+                Актуальные знания и навыки
+              </h2>
+            </li>
 
-            <img
-            src="<%=require('./images/actualknowledge.png')%>"
-            alt="Актуальные знания и навыки"
-            class="horiz-scroll-container__image"
-            />
+            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
+              <img
+                src="<%=require('./images/equalaccess.png')%>"
+                alt="Равный доступ к образованию"
+                class="horiz-scroll__image"
+              />
 
-            <h2 class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles">Актуальные знания и навыки</h2>
+              <h2
+                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
+              >
+                Равный доступ к образованию
+              </h2>
+            </li>
 
-          </div>
+            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
+              <img
+                src="<%=require('./images/investindevelopment.png')%>"
+                alt="Инвестируем в развитие местных специалистов и экпертов"
+                class="horiz-scroll__image"
+              />
 
-          <div class="horiz-scroll__card horiz-scroll__card_place_principles horiz-scroll__transform">
-
-            <img
-            src="<%=require('./images/equalaccess.png')%>"
-            alt="Равный доступ к образованию"
-            class="horiz-scroll__image"
-            />
-
-            <h2 class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles">Равный доступ к образованию</h2>
-
-          </div>
-
-          <div class="horiz-scroll__card horiz-scroll__card_place_principles horiz-scroll__transform">
-
-            <img
-            src="<%=require('./images/investindevelopment.png')%>"
-            alt="Инвестируем в развитие местных специалистов и экпертов"
-            class="horiz-scroll__image"
-            />
-
-            <h2 class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles">Инвестируем в развитие местных специалистов и экпертов</h2>
-
-          </div>
-
+              <h2
+                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
+              >
+                Инвестируем в развитие местных специалистов и экпертов
+              </h2>
+            </li>
+          </ul>
         </div>
-
       </section>
       <section class="popup"></section>
     </main>

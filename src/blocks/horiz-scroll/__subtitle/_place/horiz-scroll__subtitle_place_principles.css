@@ -1,8 +1,15 @@
 .horiz-scroll__subtitle_place_principles {
-  font-weight: 600;
+  margin-top: 40px;
   font-size: 60px;
   line-height: 68px;
-  letter-spacing: -1px;
   width: 847px;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .horiz-scroll__subtitle_place_principles {
+    font-size: 36px;
+    line-height: 44px;
+    width: 288px;
+  }
 }

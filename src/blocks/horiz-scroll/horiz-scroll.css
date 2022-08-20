@@ -1,10 +1,18 @@
 .horiz-scroll {
   display: flex;
+  flex-direction: column;
   overflow: hidden;
   background-color: #AE46FF;
-  padding: 176px 0 160px;
+  padding: 120px 0 160px;
   position: relative;
   box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: center;
+  border-radius: 60px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 600px) {
+  .horiz-scroll {
+    justify-content: center;
+    padding: 30px 16px;
+  }
 }
