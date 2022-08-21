@@ -1,0 +1,20 @@
+.about__article-brief-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 15px;
+    margin-left: 22px;
+    margin-bottom: 15px;
+}
+
+.about__article-brief-text:last-of-type {
+    margin-bottom: 0;
+}
+
+.about__article-brief-text::marker {
+    content: url(../../../images/checkmarkgraphics.svg);
+}
+
+.about__article-brief-text:nth-of-type(1)::marker {
+    content: url(../../../images/spotgraphics.svg);
+}
