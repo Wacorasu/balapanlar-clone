@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .horiz-scroll__subtitle_place_principles {
     font-size: 36px;
     line-height: 44px;
