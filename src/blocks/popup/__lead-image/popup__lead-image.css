@@ -1,0 +1,14 @@
+.popup__lead-image {
+  width: 202px;
+  aspect-ratio: 1.45;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__lead-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+.popup__enroll-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #252525;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 28px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* .popup__partner .popup__enroll-button {
+  align-self: center;
+} */
+
+@media screen and (max-width: 600px) {
+  .popup__enroll-button {
+    align-self: center;
+  }
+}

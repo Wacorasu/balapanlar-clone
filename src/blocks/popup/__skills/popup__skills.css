@@ -1,0 +1,18 @@
+.popup__skills {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  /* flex-flow: row wrap;
+  writing-mode: horizontal-tb; */
+  max-height: 280px;
+  gap: 15px 23px;
+}
+
+@media screen and (max-width: 1200px) {
+  .popup__skills {
+    max-height: none;
+    align-self: center;
+  }
+}

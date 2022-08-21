@@ -1,0 +1,43 @@
+.popup__skill {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  max-width: 535px;
+}
+
+.popup__skill::before {
+  content: "";
+  background: url(../../../images/check.svg)  transparent no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: 18px;
+  height: 12px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-right: 13px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .popup__skill {
+    max-width: none;
+    /* align-self: center; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup__skill {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .popup__skill::before {
+    width: 16px;
+    height: 10px;
+  }
+} */
