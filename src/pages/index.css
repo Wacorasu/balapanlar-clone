@@ -70,6 +70,15 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__time-age-icon/card__time-age-icon.css);
 @import url(../blocks/button-to-course/button-to-course.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__article-wrapper/about__article-wrapper.css);
+@import url(../blocks/about/__article/about__article.css);
+@import url(../blocks/about/__article-image/about__article-image.css);
+@import url(../blocks/about/__article-text/about__article-text.css);
+@import url(../blocks/about/__article-brief/about__article-brief.css);
+@import url(../blocks/about/__article-brief-text/about__article-brief-text.css);
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__logo-container/partners__logo-container.css);
