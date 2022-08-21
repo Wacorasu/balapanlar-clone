@@ -1,0 +1,12 @@
+.popup__title-close-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__title-close-container {
+    margin-bottom: 15px;
+  }
+}
