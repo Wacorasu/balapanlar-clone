@@ -1,11 +1,16 @@
 .horiz-scroll__card_place_principles {
-  min-width: 100vw;
-  max-width: 1440px;
+  min-width: 1440px;
   align-items: center;
 }
 
 .horiz-scroll__card_place_principles:first-of-type {
   align-self: flex-end;
+}
+
+@media screen and (max-width: 1440px) {
+  .horiz-scroll__card_place_principles {
+    min-width: 100vw;
+  }
 }
 
 @media screen and (max-width: 700px) {

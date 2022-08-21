@@ -5,27 +5,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = gsap.utils.toArray(".horiz-scroll__card");
 
-/* window.addEventListener('resize', () => {
-  if (window.innerWidth > 600) {
+let matchMedia = gsap.matchMedia();
 
-  } else {
-
-  }
-}) */
-
-gsap.to(cards, {
-  xPercent: -100 * (cards.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".horiz-scroll",
-    pin: true,
-    scrub: 1,
-    snap: 1 / (cards.length - 1),
-    end: () => "+=" + document.querySelector(".horiz-scroll").offsetWidth
-  }
+matchMedia.add("(min-width: 700px)", () => {
+  scrolling()
 })
 
-
-
-
-
+function scrolling() {
+  gsap.to(cards, {
+    xPercent: -100 * (cards.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".horiz-scroll",
+      pin: true,
+      scrub: 1,
+      snap: 1 / (cards.length - 1),
+      end: () => "+=" + document.querySelector(".horiz-scroll").offsetWidth
+    }
+  })
+}
