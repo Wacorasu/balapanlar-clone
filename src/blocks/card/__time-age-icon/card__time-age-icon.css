@@ -1,0 +1,13 @@
+.card__time-age-icon{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 450px) {
+    .card__time-age-icon {
+        width: 16px;
+        height: 18px;
+    }
+}

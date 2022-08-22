@@ -1,0 +1,22 @@
+.button-to-course {
+    margin: 0;
+    background-color: #252525;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    text-align: center;
+    padding: 20px 28px;
+    border: none;
+    border-radius: 50px;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+    text-decoration: none;
+}
+
+.button-to-course:hover{
+    opacity: 0.8;
+}
+

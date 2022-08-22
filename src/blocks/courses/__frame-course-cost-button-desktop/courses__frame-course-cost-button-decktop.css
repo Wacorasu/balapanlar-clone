@@ -1,0 +1,9 @@
+.courses__frame-course-cost-button-decktop{
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    .courses__frame-course-cost-button-decktop {
+        display: none;
+    }
+}
