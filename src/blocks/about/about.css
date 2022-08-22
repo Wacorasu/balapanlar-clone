@@ -1,0 +1,21 @@
+.about {
+    background-color: #fff;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    padding: 120px calc(50% - 600px) 80px;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
