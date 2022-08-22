@@ -1,0 +1,12 @@
+.card__time-age-list{
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+@media (max-width: 450px) {
+    .card__time-age-list {
+        margin: 0 0 22px 0;
+    }
+}

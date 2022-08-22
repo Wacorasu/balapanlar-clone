@@ -1,0 +1,21 @@
+.card__description-paragraph{
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.card__description-paragraph:last-child{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 450px) {
+    .card__description-paragraph {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+

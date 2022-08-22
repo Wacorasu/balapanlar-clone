@@ -1,0 +1,33 @@
+.courses__frame-cards{
+    width: calc(100%-120px*2);
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(386px, max-content));
+    gap: 10px;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1024px) {
+    .courses__frame-cards {
+        width: calc(100%-80px*2);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .courses__frame-cards {
+        width: calc(100%-30px*2);
+        grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+    }
+}
+
+@media (max-width: 450px) {
+    .courses__frame-cards {
+        width: calc(100%-10px*2);
+        grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    }
+}
