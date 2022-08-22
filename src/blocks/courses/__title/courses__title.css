@@ -32,6 +32,7 @@
 @media (max-width: 450px) {
     .courses__title {
         width: 240px;
+        min-width: 305px;
         margin-left: 15px;
         font-size: 36px;
         line-height: 44px;
