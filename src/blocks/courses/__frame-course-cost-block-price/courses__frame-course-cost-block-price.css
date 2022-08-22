@@ -1,7 +1,6 @@
 .courses__frame-course-cost-block-price{
     display: flex;
     max-width: 342px;
-    min-width: 320px;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -18,7 +17,6 @@
 
 @media (max-width: 450px) {
     .courses__frame-course-cost-block-price {
-        width: 100%;
         align-items: flex-start;
     }
 }
