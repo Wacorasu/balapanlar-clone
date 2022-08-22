@@ -1,0 +1,40 @@
+.courses__title{
+    width: calc(100%-120px*2);
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto 40px auto;
+    padding: 0;
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -1px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media (max-width: 1024px) {
+    .courses__title {
+        width: calc(100%-80px*2);
+        font-size: 55px;
+        line-height: 63px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .courses__title {
+        width: calc(100%-40px*2);
+        font-size: 46px;
+        line-height: 56px;
+    }
+}
+
+@media (max-width: 450px) {
+    .courses__title {
+        width: 240px;
+        min-width: 305px;
+        margin-left: 15px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+}

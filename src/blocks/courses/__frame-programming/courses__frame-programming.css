@@ -1,0 +1,33 @@
+.courses__frame-programming{
+    width: calc(100%-100px*2);
+    max-width: 1220px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: #FFD643;
+    border-radius: 70px;
+}
+
+@media (max-width: 1024px) {
+    .courses__frame-programming {
+        width: calc(100%-70px*2);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .courses__frame-programming {
+        width: calc(100%-30px*2);
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .courses__frame-programming {
+        width: 100%;
+        border-radius: 40px;
+    }
+}
