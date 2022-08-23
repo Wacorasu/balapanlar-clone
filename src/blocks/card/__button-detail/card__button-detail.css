@@ -1,0 +1,26 @@
+.card__button-detail{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    text-align: center;
+    background:none;
+    border: none;
+    opacity: 1;
+    text-decoration: none;
+    align-self: center;
+    transition: opacity .4s ease-in-out;
+}
+
+.card__button-detail:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 450px) {
+    .card__button-detail {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

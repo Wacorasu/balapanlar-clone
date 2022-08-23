@@ -1,0 +1,19 @@
+.card__text-list-element{
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 31px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.card__text-list-element::before{
+    content: url("../../../images/checkmarkgraphics.svg");
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+

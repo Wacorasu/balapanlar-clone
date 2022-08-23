@@ -1,0 +1,19 @@
+.about__article-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 60px;
+    column-gap: 10px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+    .about__article-wrapper {
+        flex-flow: column nowrap;
+        gap: 60px;
+    }
+}
