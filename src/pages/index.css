@@ -19,14 +19,94 @@
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
 @import url(../blocks/burger-menu/__close-button/burger-menu__close-button.css);
 @import url(../blocks/burger-menu/__button/burger-menu__button.css);
-@import url(../blocks/principles/principles.css);
-@import url(../blocks/horiz-scroll/horiz-scroll.css);
-@import url(../blocks/horiz-scroll/_place/horiz-scroll_place_principles.css);
-@import url(../blocks/horiz-scroll/__card/horiz-scroll__card.css);
-@import url(../blocks/horiz-scroll/__card/_place/horiz-scroll__card_place_principles.css);
-@import url(../blocks/horiz-scroll/__image/horiz-scroll__image.css);
-@import url(../blocks/horiz-scroll/__subtitle/horiz-scroll__subtitle.css);
-@import url(../blocks/horiz-scroll/__subtitle/_place/horiz-scroll__subtitle_place_principles.css);
-@import url(../blocks/horiz-scroll/__title/horiz-scroll__title.css);
-@import url(../blocks/horiz-scroll/__title/_place/horiz-scroll__title_place_principles.css);
-@import url(../blocks/horiz-scroll/__card-container/horiz-scroll__card-container.css);
+
+.principles {
+    max-width: 100%;
+    height: calc(100vh - 78.4px);
+    background-color: #AE46FF;
+    border-radius: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.principles_without-border {
+    border-radius: 0;
+}
+
+.principles__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #fff;
+    margin: 0;
+    padding-top: 12vh;
+}
+
+@media (max-height: 785px) {
+    .principles__title {
+        padding-top: 7vh;
+    }
+}
+
+.horiz-scroll {
+    display: flex;
+    flex-flow: row nowrap;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300%;
+}
+
+.horiz-scroll__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+}
+
+.horiz-scroll__card-image {
+    height: 42vh;
+    object-position: center;
+    object-fit: contain;
+}
+
+.horiz-scroll__card-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    max-width: 847px;
+}
+
+@media (max-height: 850px) {
+    .horiz-scroll__card-title {
+        font-size: 50px;
+        line-height: 58px;
+        max-width: 700px;
+    }
+}
+
+@media (max-height: 850px) {
+    .horiz-scroll__card-title {
+        font-size: 50px;
+        line-height: 58px;
+        max-width: 700px;
+    }
+}
+
+@media (max-height: 785px) {
+    .horiz-scroll__card-title {
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+}

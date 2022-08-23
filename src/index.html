@@ -17,7 +17,7 @@
     />
   </head>
   <body class="body">
-    <header class="header">
+    <header class="header" style="z-index: 100;">
       <div class="header__container">
         <a href="/" class="header__logo-box">
           <div class="header__logo"></div>
@@ -91,58 +91,25 @@
       <section class="purpose"></section>
       <section class="courses"></section>
       <section class="about"></section>
-      <section class="partners"></section>
+      <section class="partners" style="background-color: red; width: 100%; height: 100vh;"></section>
       <section class="principles">
-        <div class="horiz-scroll horiz-scroll_place_principles">
-          <h4 class="horiz-scroll__title horiz-scroll__title_place_principles">
-            Наши принципы
-          </h4>
-
-          <ul class="horiz-scroll__card-container">
-            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
-              <img
-                src="<%=require('./images/actualknowledge.png')%>"
-                alt="Актуальные знания и навыки"
-                class="horiz-scroll__image"
-              />
-
-              <h2
-                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
-              >
-                Актуальные знания и навыки
-              </h2>
-            </li>
-
-            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
-              <img
-                src="<%=require('./images/equalaccess.png')%>"
-                alt="Равный доступ к образованию"
-                class="horiz-scroll__image"
-              />
-
-              <h2
-                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
-              >
-                Равный доступ к образованию
-              </h2>
-            </li>
-
-            <li class="horiz-scroll__card horiz-scroll__card_place_principles">
-              <img
-                src="<%=require('./images/investindevelopment.png')%>"
-                alt="Инвестируем в развитие местных специалистов и экпертов"
-                class="horiz-scroll__image"
-              />
-
-              <h2
-                class="horiz-scroll__subtitle horiz-scroll__subtitle_place_principles"
-              >
-                Инвестируем в развитие местных специалистов и экпертов
-              </h2>
-            </li>
-          </ul>
-        </div>
+        <h2 class="principles__title">Наши принципы</h2>
+        <ul class="horiz-scroll">
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/actualknowledge.png')%>" alt="Актуальные знания и навыки"/>
+            <h3 class="horiz-scroll__card-title">Актуальные знания и навыки</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/equalaccess.png')%>" alt="Равный доступ к образованию"/>
+            <h3 class="horiz-scroll__card-title">Равный доступ к образованию</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/investindevelopment.png')%>" alt="Инвестируем в развитие местных специалистов и экпертов"/>
+            <h3 class="horiz-scroll__card-title">Инвестируем в развитие местных специалистов и экпертов</h3>
+          </li>
+        </ul>
       </section>
+      <section class="partners" style="background-color: yellow; width: 100%; height: 100vh;"></section>
       <section class="popup"></section>
     </main>
     <footer class="footer"></footer>
