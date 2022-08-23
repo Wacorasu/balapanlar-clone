@@ -8,6 +8,7 @@
   position: absolute;
   top: 35px;
   right: 35px;
+  z-index: 3;
 }
 
 .popup__close-button:hover {
@@ -20,7 +21,6 @@
     background: url('../../../images/close-icon-white.svg');
     top: -35px;
     right: 0;
-    z-index: 2;
   }
 }
 
