@@ -41,8 +41,8 @@ export default class Popup {
         // this.body.classList.add('popup__body-scroll');
         this.setEventListener();
         console.log(window.scrollY);
-        document.body.style.top = `-${window.scrollY}px`;
-        document.body.style.position = 'fixed'; 
+        document.body.style.top = `-${window.scrollY + 100}px`;
+        // document.body.style.position = 'fixed'; 
     }
 
     setEventListener() {
