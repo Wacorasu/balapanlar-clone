@@ -16,3 +16,9 @@
   overflow-x: hidden; */
   overflow-y: scroll;
 }
+
+@media screen and (max-width: 640px) {
+  .popup {
+    padding-top: 42px;
+  }
+}

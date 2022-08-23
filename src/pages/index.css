@@ -91,9 +91,9 @@
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__skills-subtitle/popup__skills-subtitle.css);
 @import url(../blocks/popup/__enroll-button/popup__enroll-button.css);
+@import url(../blocks/popup/__logo-link/popup__logo-link.css);
 @import url(../blocks/popup/popup__body-scroll/popup__body-scroll.css);
 @import url(../blocks/popup/__lead-image/popup__lead-image.css);
 @import url(../blocks/popup/__info-item-image/popup__info-item-image.css);
-@import url(../blocks/partners/__logo-link/partners__logo-link.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
 

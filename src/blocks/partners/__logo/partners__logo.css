@@ -1,3 +1,8 @@
 .partners__logo {
   visibility: visible;
 }
+
+.partners__logo:hover{
+  opacity: 0.7;
+  transition: .2s;
+}

@@ -3,10 +3,10 @@ import '../components/header/header.js'
 import { Popup } from '../components/Popup/Popup.js';
 import { popupSelectorCourse, popupSelectorPartner } from '../utils/constants';
 
-const popupCourseButton = document.querySelector('.partners__title');
+const popupCourseButton = document.querySelector('.card__button-detail');
 const popupCourse = new Popup({popupSelector: popupSelectorCourse});
 
-const popupPartnerButton = document.querySelector('.partners__border');
+const popupPartnerButtons = document.querySelectorAll('.partners__border');
 const popupPartner = new Popup({popupSelector: popupSelectorPartner});
 
 console.log('asdasf');
@@ -17,7 +17,9 @@ popupCourseButton.addEventListener('click', (e) =>{
   popupCourse.openPopup();
 })
 
-popupPartnerButton.addEventListener('click', (e) =>{
-  e.preventDefault();
-  popupPartner.openPopup();
+popupPartnerButtons.forEach(button => {
+  button.addEventListener('click', (e) =>{
+    e.preventDefault();
+    popupPartner.openPopup();
+  });
 })

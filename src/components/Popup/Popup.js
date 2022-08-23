@@ -30,18 +30,18 @@ export default class Popup {
         this._popup.classList.remove('popup_opened');
         // this.body.classList.remove('popup__body-scroll');
         this._removeEventListeners(evt);
-        this.scrollY = document.body.style.top;
-        document.body.style.top = '';
-        document.body.style.position = '';
-        window.scrollTo(0, parseInt(this.scrollY || '0') * -1);
+        // this.scrollY = document.body.style.top;
+        // document.body.style.top = '';
+        // document.body.style.position = '';
+        // window.scrollTo(0, parseInt(this.scrollY || '0') * -1);
     }
 
     openPopup() {
         this._popup.classList.add('popup_opened');
         // this.body.classList.add('popup__body-scroll');
         this.setEventListener();
-        console.log(window.scrollY);
-        document.body.style.top = `-${window.scrollY + 100}px`;
+        // console.log(window.scrollY);
+        // document.body.style.top = `-${window.scrollY}px`;
         // document.body.style.position = 'fixed'; 
     }
 

@@ -117,7 +117,7 @@
               </div> 
               <div class="card__buttons">
                 <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
-                <a class="card__button-detail" href="#">Смотреть все навыки</a>
+                <button class="card__button-detail">Смотреть все навыки</button>
               </div>
             </div>
             <div class="card">
@@ -269,14 +269,10 @@
             <img src="<%=require('./images/lectureswithoutborders.jpg')%>" alt="Логтип LecturesWithoutBorders" class="partners__logo"/>
           </li>
           <li class="partners__border">
-            <a class="partners__logo-link" href="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/" target="_blank">
-              <img src="<%=require('./images/openhorizonts.jpg')%>" alt="Логтип Открывая горизонты" class="partners__logo"/>
-            </a>
+            <img src="<%=require('./images/openhorizonts.jpg')%>" alt="Логтип Открывая горизонты" class="partners__logo"/>
           </li>
           <li class="partners__border">
-            <a class="partners__logo-link" href="https://himbio4you.ru/" target="_blank">
-              <img src="<%=require('./images/himbio.jpg')%>" alt="Логтип ХимБио" class="partners__logo"/>
-            </a>
+            <img src="<%=require('./images/himbio.jpg')%>" alt="Логтип ХимБио" class="partners__logo"/>
           </li>
         </ul>
       </section>
@@ -317,21 +313,42 @@
           <li class="popup__skill">Автоматизировать работу с графическими файлами</li>
           <li class="popup__skill">Работать в команде и создавать проекты от идеи до их публичной презентации</li>
         </ul>
-        <button class="popup__enroll-button">Записаться</button>
+        <a class="popup__logo-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">
+          <button class="popup__enroll-button">Записаться</button>
+        </a>
+        
       </div>
     </div>
 
-    <div class="popup popup__partner">
+    <div class="popup popup__partner popup__lectureswithoutborders">
       <div class="popup__container">
         <img src="<%=require('./images/lectureswithoutborders.jpg')%>" alt="лого партнера" class="popup__lead-image">
         <button class="popup__close-button"></button>
-        
-        <p class="popup__skills-subtitle">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.<br/>
-          Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
-        <a href="#">
+        <p class="popup__skills-subtitle">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</p>
+        <a class="popup__logo-link" href="#" target="_blank">
           <button class="popup__enroll-button">Перейти на сайт партнёра</button>
         </a>
-        
+      </div>
+    </div>
+    <div class="popup popup__partner popup__openhorizons">
+      <div class="popup__container">
+        <img src="<%=require('./images/openhorizonts.jpg')%>" alt="лого партнера" class="popup__lead-image">
+        <button class="popup__close-button"></button>
+        <p class="popup__skills-subtitle">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.<br/>
+          Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
+        <a class="popup__logo-link" href="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/" target="_blank">
+          <button class="popup__enroll-button">Перейти на сайт партнёра</button>
+        </a>
+      </div>
+    </div>
+    <div class="popup popup__partner popup__himbio">
+      <div class="popup__container">
+        <img src="<%=require('./images/himbio.jpg')%>" alt="лого партнера" class="popup__lead-image">
+        <button class="popup__close-button"></button>
+        <p class="popup__skills-subtitle">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</p>
+        <a class="popup__logo-link" href="https://himbio4you.ru/" target="_blank">
+          <button class="popup__enroll-button">Перейти на сайт партнёра</button>
+        </a>
       </div>
     </div>
   </body>
