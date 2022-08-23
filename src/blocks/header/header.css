@@ -1,11 +1,8 @@
 .header {
   background-color: white;
   width: 100%;
-<<<<<<< HEAD
   position: fixed;
   left: 0;
   top: 0;
-=======
-  z-index: 100;
->>>>>>> ae536c3 (courses section done)
+  z-index: 2;
 }
