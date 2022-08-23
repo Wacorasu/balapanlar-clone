@@ -14,13 +14,13 @@
   }
 }
 
-.header_fixed .header__container {
+.header_second-logo .header__container {
   padding-top: 14px;
   padding-bottom: 14px;
 }
 
 @media screen and (max-width: 1200px) {
-  .header_fixed .header__container {
+  .header_second-logo .header__container {
     padding-top: 10px;
     padding-bottom: 10px;
   }

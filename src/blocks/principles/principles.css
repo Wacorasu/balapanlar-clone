@@ -1,0 +1,30 @@
+.principles {
+    max-width: 100%;
+    height: calc(100vh - 78.4px);
+    background-color: #AE46FF;
+    border-radius: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+    overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+    .principles {
+        height: calc(100vh - 56px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .principles {
+        height: initial;
+        overflow: visible;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .principles {
+        border-radius: 30px;
+    }
+}

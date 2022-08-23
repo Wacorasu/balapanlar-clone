@@ -10,12 +10,12 @@ burgerButton.addEventListener('click', function() {
 
 burgerCloseBtn.addEventListener('click', function() {
 	burgerMenu.classList.remove('burger-menu_active');
-})
+});
 
 document.addEventListener("scroll", function () {
   if (window.pageYOffset >= 1) {
-    header.classList.add("header_fixed");
+    header.classList.add("header_second-logo");
   } else {
-    header.classList.remove("header_fixed");
+    header.classList.remove("header_second-logo");
   }
 });

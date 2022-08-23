@@ -7,7 +7,7 @@ const cards = gsap.utils.toArray(".horiz-scroll__card");
 const principles = document.querySelector('.principles');
 
 const matchMedia = gsap.matchMedia();
-matchMedia.add("(min-width: 1201px)", () => {
+matchMedia.add("(min-width: 1025px)", () => {
   scrolling();
 });
 
@@ -19,7 +19,7 @@ function scrolling() {
       trigger: ".principles",
       start: "bottom bottom",
       pin: '.principles',
-      markers: true,
+      // markers: true,
       scrub: 1,
       end: () => `+=${document.querySelector(".horiz-scroll").offsetWidth}`,
     }

@@ -1,0 +1,17 @@
+.horiz-scroll {
+    display: flex;
+    flex-flow: row nowrap;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300%;
+}
+
+@media (max-width: 1024px) {
+    .horiz-scroll {
+        flex-flow: column nowrap;
+        width: 100%;
+        gap: 60px;
+    }
+}

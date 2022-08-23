@@ -1,0 +1,24 @@
+.horiz-scroll__card-image {
+    height: 42vh;
+    object-position: center;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    .horiz-scroll__card-image {
+        height: initial;
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .horiz-scroll__card-image {
+        width: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    .horiz-scroll__card-image {
+        width: 71.875%;
+    }
+}

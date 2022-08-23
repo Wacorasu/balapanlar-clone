@@ -1,0 +1,50 @@
+.horiz-scroll__card-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    max-width: 847px;
+}
+
+@media (max-height: 850px) {
+    .horiz-scroll__card-title {
+        font-size: 50px;
+        line-height: 58px;
+        max-width: 700px;
+    }
+}
+
+@media (max-height: 785px) {
+    .horiz-scroll__card-title {
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .horiz-scroll__card-title {
+        margin-top: 30px;
+        font-size: 50px;
+        line-height: 58px;
+    }
+}
+
+@media (max-width: 768px) {
+    .horiz-scroll__card-title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 424px) {
+    .horiz-scroll__card-title {
+        font-size: 36px;
+        line-height: 44px;
+        max-width: 288px;
+    }
+}
