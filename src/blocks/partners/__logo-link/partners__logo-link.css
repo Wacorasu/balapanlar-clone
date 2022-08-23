@@ -1,8 +1,0 @@
-.partners__logo-link {
-    opacity: 1;
-    transition: opacity .5s ease;
-}
-
-.partners__logo-link:hover {
-    opacity: .6;
-}
