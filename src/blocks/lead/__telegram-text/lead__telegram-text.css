@@ -7,4 +7,20 @@
     max-width: 750px;
     overflow-x: hidden;
     text-overflow: ellipsis;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .lead__telegram-text {
+        font-size: 17px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__telegram-text {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
 }

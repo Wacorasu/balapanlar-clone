@@ -3,3 +3,9 @@
     flex-flow: row nowrap;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .purpose {
+        margin-top: 150px;
+    }
+}

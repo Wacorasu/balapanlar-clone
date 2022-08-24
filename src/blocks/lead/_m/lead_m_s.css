@@ -1,0 +1,15 @@
+.lead_m_s {
+    margin-top: 78.4px;
+}
+
+@media (max-width: 1200px) {
+    .lead_m_s {
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 640px) {
+    .lead_m_s {
+        margin-top: 42px;
+    }
+}

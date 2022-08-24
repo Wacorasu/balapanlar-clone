@@ -22,3 +22,9 @@
 .lead__telegram-button:hover {
     background-color: #333333;
 }
+
+@media (max-width: 600px) {
+    .lead__telegram-button {
+        margin-right: 0;
+    }
+}

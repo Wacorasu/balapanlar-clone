@@ -11,10 +11,24 @@
     width: 83.3%;
     height: 72px;
     border-radius: 60px;
+    padding: 0;
 }
 
 @media (max-width: 1024px) {
     .lead__telegram {
-        display: none;
+        width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__telegram {
+        width: 100%;
+        bottom: -150px;
+        border-radius: 40px;
+        height: initial;
+        flex-direction: column;
+        padding-top: 34px;
+        padding-bottom: 30px;
+        gap: 15px;
     }
 }

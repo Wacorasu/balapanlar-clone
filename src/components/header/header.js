@@ -1,4 +1,5 @@
 const header = document.querySelector(".header");
+const lead = document.querySelector(".lead");
 const logo = header.querySelector(".header__logo");
 const burgerOpenButton = header.querySelector('.header__burger-btn');
 const burgerMenu = header.querySelector('.burger-menu');
@@ -20,8 +21,10 @@ burgerCloseBtn.addEventListener('click', closeBurgerMenu);
 document.addEventListener("scroll", function () {
   if (window.pageYOffset >= 1) {
     header.classList.add("header_second-logo");
+    lead.classList.add("lead_m_s");
   } else {
     header.classList.remove("header_second-logo");
+    lead.classList.remove("lead_m_s");
   }
 });
 
