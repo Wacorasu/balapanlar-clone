@@ -10,9 +10,6 @@ const popupCourse = new Popup({popupSelector: popupSelectorCourse});
 const popupPartnerButtons = document.querySelectorAll('.partners__border');
 const popupPartner = new Popup({popupSelector: popupSelectorPartner});
 
-console.log('asdasf');
-
-
 popupCourseButton.addEventListener('click', (e) =>{
   e.preventDefault();
   popupCourse.openPopup();
