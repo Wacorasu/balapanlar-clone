@@ -38,6 +38,7 @@
     .horiz-scroll__card-title {
         font-size: 40px;
         line-height: 48px;
+        max-width: 552px;
     }
 }
 

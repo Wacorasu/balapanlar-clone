@@ -20,12 +20,13 @@
     .principles {
         height: initial;
         overflow: visible;
-        gap: 30px;
+        gap: 40px;
+        border-radius: 30px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 425px) {
     .principles {
-        border-radius: 30px;
+        gap: 30px;
     }
 }

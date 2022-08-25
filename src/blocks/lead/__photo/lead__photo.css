@@ -10,8 +10,16 @@
 
 @media (max-width: 768px) {
     .lead__photo {
-        height: 700px;
+        height: 1053px;
         border-radius: 45px;
+        background-image: url(../../../images/secondvariationofleadphoto.jpg);
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__photo {
+        height: 852px;
+        background-image: url(../../../images/thirdvariationofleadphoto.jpg);
     }
 }
 

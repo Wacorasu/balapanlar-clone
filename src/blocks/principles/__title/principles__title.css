@@ -15,6 +15,12 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .principles__title {
+        padding-top: 160px;
+    }
+}
+
 @media (max-width: 425px) {
     .principles__title {
         padding-top: 30px;

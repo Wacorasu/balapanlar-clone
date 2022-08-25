@@ -10,8 +10,14 @@
 
 @media (max-width: 768px) {
     .lead__container {
-        height: 700px;
+        height: 1053px;
         border-radius: 45px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__container {
+        height: 852px;
     }
 }
 

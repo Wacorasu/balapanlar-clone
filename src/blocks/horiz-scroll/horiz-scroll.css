@@ -12,6 +12,12 @@
     .horiz-scroll {
         flex-flow: column nowrap;
         width: 100%;
+        gap: 160px;
+    }
+}
+
+@media (max-width: 425px) {
+    .horiz-scroll {
         gap: 60px;
     }
 }

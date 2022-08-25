@@ -20,6 +20,13 @@
     }
 }
 
+@media (max-width: 768px) {
+    .lead__telegram {
+        width: 79.83%;
+        height: 90px;
+    }
+}
+
 @media (max-width: 600px) {
     .lead__telegram {
         width: 100%;
