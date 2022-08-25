@@ -1,19 +1,15 @@
 .burger-menu__close-button {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border: none;
-  background-color: transparent;
-  background: url(../../../images/close-icon.svg);
-  width: 22px;
-  aspect-ratio: 1/1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-
-.burger-menu__close-button:hover {
-  opacity: 0.6;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-image: url(../../../images/close-icon.svg);
+    border: 0;
+    padding: 0;
+    background-color: #fff;
 }

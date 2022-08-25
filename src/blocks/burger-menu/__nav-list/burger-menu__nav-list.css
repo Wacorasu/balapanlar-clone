@@ -1,7 +1,0 @@
-.burger-menu__nav-list {
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  column-gap: unset;
-  row-gap: 15px;
-}

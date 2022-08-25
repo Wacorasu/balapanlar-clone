@@ -1,35 +1,34 @@
 .header__logo {
   width: 100px;
   aspect-ratio: 1 / 1;
-  background-image: url("../../../images/logotype.jpg");
+  background-image: url("../../../images/firstlogo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  transition: background-image .1s ease;
 }
 
-@media screen and (max-width: 1200px) {
-  .header__logo {
-    background-image: url("../../../images/secondaryLogo.jpg");
-    aspect-ratio: unset;
-    height: 36px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .header__logo {
-    height: 22px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .header_second-logo .header__logo {
     background-image: url("../../../images/secondaryLogo.jpg");
     aspect-ratio: unset;
-    height: 36px;
+    height: 30px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 1024px) {
+  .header__logo {
+    background-image: url("../../../images/secondaryLogo.jpg");
+    aspect-ratio: unset;
+    height: 30px;
+  }
+}
+
+@media (max-width: 426px) {
+  .header__logo {
+    height: 22px;
+  }
+
   .header_second-logo .header__logo {
     height: 22px;
   }

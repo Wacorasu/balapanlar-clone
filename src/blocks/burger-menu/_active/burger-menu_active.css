@@ -1,6 +1,0 @@
-@media screen and (max-width: 1200px) {
-  .burger-menu_active {
-    display: flex;
-    transform: translate(0, 0);
-  }
-}

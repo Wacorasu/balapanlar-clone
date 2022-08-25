@@ -7,6 +7,7 @@
     flex-flow: column nowrap;
     gap: 12px;
     overflow: hidden;
+    transition: border-radius .3s ease;
 }
 
 @media (max-width: 1200px) {
