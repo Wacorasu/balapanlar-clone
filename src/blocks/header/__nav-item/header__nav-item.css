@@ -1,5 +1,10 @@
 .header__nav-item {
   transition: opacity 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__nav-item:hover {

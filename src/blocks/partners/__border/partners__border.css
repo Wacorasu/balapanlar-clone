@@ -1,8 +1,8 @@
 .partners__border {
     visibility: hidden;
   }
-  
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 900px) {
     .partners__border {
       display: flex;
       justify-content: center;
@@ -13,10 +13,19 @@
       border-radius: 30px;
       box-sizing: border-box;
       visibility: visible;
-      margin-bottom: 10px;
     }
-  
-    .partners__border:last-of-type {
-      margin-bottom: 0;
+
+    .partners__border:nth-child(odd) {
+      justify-self: end;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .partners__border:nth-child(odd) {
+      justify-self: center;
+    }
+  }
+
+
+
+

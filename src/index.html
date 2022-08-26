@@ -20,7 +20,7 @@
     <header class="header">
       <div class="header__container">
         <a href="/" class="header__logo-box">
-					<div class="header__logo"></div>
+          <div class="header__logo"></div>
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -42,47 +42,36 @@
           </ul>
         </nav>
         <a class="header__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
-				<button class="header__burger-btn"></button>
+				<button class="header__burger-btn" type="button"></button>
       </div>
-			<div class="burger-menu">
-				<a href="/" class="header__logo-box burger-menu__logo-box">
-					<div class="header__logo burger-menu__logo"></div>
-        </a>
-        <nav class="header__nav burger-menu__nav">
-          <ul class="header__nav-list burger-menu__nav-list">
-            <li class="header__nav-item burger-menu__nav-item">
-              <a href="#courses" class="header__nav-link burger-menu__nav-link">Наши курсы</a>
-            </li>
-            <li class="header__nav-item burger-menu__nav-item">
-              <a href="#about" class="header__nav-link burger-menu__nav-link">О нас</a>
-            </li>
-            <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Команда</a>
-            </li>
-            <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Как нас найти</a>
-            </li>
-            <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Поддержать проект</a>
-            </li>
-          </ul>
-        </nav>
-        <a class="header__button burger-menu__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
-				<button type="button" class="burger-menu__close-button"></button>
-			</div>
+      <div class="burger-menu">
+        <div class="burger-menu__container">
+          <a class="burger-menu__logo" href="/"><img class="burger-menu__logo-photo" src="<%=require('./images/firstlogo.svg')%>"></a>
+          <nav class="burger-menu__links">
+            <a href="#courses" class="burger-menu__link">Наши курсы</a>
+            <a href="#about" class="burger-menu__link">О нас</a>
+            <a href="#" class="burger-menu__link">Команда</a>
+            <a href="#" class="burger-menu__link">Как нас найти</a>
+            <a href="#" class="burger-menu__link">Поддержать проект</a>
+          </nav>
+          <a href="#" class="burger-menu__enroll-button">Записаться на курсы</a>
+          <button class="burger-menu__close-button" type="button"></button>
+        </div>
+      </div>
     </header>
-
     <main class="content">
       <section class="lead">
         <div class="lead__photo">
-          <h1 class="lead__title">Досуг и курсы для детей в аулах и сёлах</h1>
-          <a class="lead__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
-          <div class="lead__telegram">
-            <div class="lead__telegram-wrapper">
-              <img class="lead__telegram-graphics" src="<%=require('./images/telegramlogo.svg')%>">
-              <h3 class="lead__telegram-text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале</h3>
+          <div class="lead__container">
+            <h1 class="lead__title">Досуг и курсы для детей в аулах и сёлах</h1>
+            <a class="lead__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
+            <div class="lead__telegram">
+              <div class="lead__telegram-wrapper">
+                <img class="lead__telegram-graphics" src="<%=require('./images/telegramlogo.svg')%>">
+                <h3 class="lead__telegram-text">Следите за последними анонсами <wbr>и событиями “Уя” в нашем Telegram канале</h3>
+              </div>
+              <a class="lead__telegram-button" href="https://t.me/balapanlar" target="_blank">Подписаться</a>
             </div>
-            <a class="lead__telegram-button" href="https://t.me/balapanlar" target="_blank">Подписаться</a>
           </div>
         </div>
       </section>
@@ -114,7 +103,7 @@
                 <li class="card__text-list-element">Разбираться в основах алгоритмики и объектно-ориентированного программирования&hellip;</li>
                 </ul>
               </div>
-              </div> 
+              </div>
               <div class="card__buttons">
                 <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
                 <button class="card__button-detail">Смотреть все навыки</button>
@@ -135,12 +124,12 @@
                 <p class="card__description-paragraph">На нашем курсе студенты освоят создание web-сайтов, узнают об отличиях и особенностях платформ, поймут, как работает аналитика и алгоритмы поиска.</p>
                 <p class="card__description-paragraph">Это как самостоятельная, так и командная работа: разработка самого сайта, создание дизайна и контента позволяют окунуться с головой и приобрести действительно нужный и актуальный навык.</p>
               </div>
-             </div> 
+             </div>
               <div class="card__buttons">
                 <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
               </div>
             </div>
-          </div>   
+          </div>
         </div>
         <div class="courses__frame-cards">
           <div class="card">
@@ -158,7 +147,7 @@
             <div class="card__description">
               <p class="card__description-paragraph">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
             </div>
-           </div> 
+           </div>
             <div class="card__buttons">
               <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
             </div>
@@ -179,7 +168,7 @@
             <div class="card__description">
               <p class="card__description-paragraph">Мы не только учим грамматике, но и смотрим фильмы, привыкаем к сленгу и деловой переписке, читаем статьи и общаемся онлайн с носителями языка из разных стран!</p>
             </div>
-           </div> 
+           </div>
             <div class="card__buttons">
               <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
             </div>
@@ -200,7 +189,7 @@
             <div class="card__description">
               <p class="card__description-paragraph">Cтуденты освоят программы моделирования, сканирования и печати на 3D-принтере. К завершению курса студенты сами напечатают настоящие предметы.</p>
             </div>
-           </div> 
+           </div>
             <div class="card__buttons">
               <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
             </div>
@@ -263,6 +252,7 @@
         </ul>
       </section>
       <section class="partners">
+
         <h4 class="partners__title">Наши партнеры</h4>
         <ul class="partners__logo-container">
           <li class="partners__border">
@@ -272,11 +262,29 @@
             <img src="<%=require('./images/openhorizonts.jpg')%>" alt="Логтип Открывая горизонты" class="partners__logo"/>
           </li>
           <li class="partners__border">
-            <img src="<%=require('./images/himbio.jpg')%>" alt="Логтип ХимБио" class="partners__logo"/>
+            <a class="partners__logo-link" href="https://himbio4you.ru/" target="_blank">
+              <img src="<%=require('./images/himbio.jpg')%>" alt="Логтип ХимБио" class="partners__logo"/>
+            </a>
           </li>
         </ul>
       </section>
-      <section class="principles"></section>
+      <section class="principles">
+        <h2 class="principles__title">Наши принципы</h2>
+        <ul class="horiz-scroll">
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/actualknowledge.png')%>" alt="Актуальные знания и навыки"/>
+            <h3 class="horiz-scroll__card-title">Актуальные знания и навыки</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/equalaccess.png')%>" alt="Равный доступ к образованию"/>
+            <h3 class="horiz-scroll__card-title">Равный доступ к образованию</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/investindevelopment.png')%>" alt="Инвестируем в развитие местных специалистов и экпертов"/>
+            <h3 class="horiz-scroll__card-title">Инвестируем в развитие местных специалистов и экпертов</h3>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer"></footer>
 
@@ -284,7 +292,7 @@
       <div class="popup__container">
         <h2 class="popup__title">Python Start</h2>
         <button class="popup__close-button"></button>
-        
+
         <ul class="popup__info">
           <li class="popup__info-item">
             <img src="<%=require('./images/littlemangraphics.svg')%>" class="popup__info-item-image" alt="фигурка человека">
@@ -316,7 +324,7 @@
         <a class="popup__logo-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">
           <button class="popup__enroll-button">Записаться</button>
         </a>
-        
+
       </div>
     </div>
 

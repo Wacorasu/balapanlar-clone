@@ -12,6 +12,7 @@
     text-decoration: none;
     align-self: center;
     transition: opacity .4s ease-in-out;
+    cursor: pointer;
 }
 
 .card__button-detail:hover{

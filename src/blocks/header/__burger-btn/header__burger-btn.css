@@ -2,11 +2,11 @@
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .header__burger-btn {
     display: block;
     background-color: transparent;
-    width: 22px;
+    width: 28px;
     aspect-ratio: 1/1;
     background-image: url(../../../images/header__burger.svg);
     background-position: center;
@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: opacity .3s ease;
   }
 
   .header__burger-btn:hover {
