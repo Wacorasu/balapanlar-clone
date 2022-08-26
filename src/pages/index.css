@@ -21,7 +21,6 @@
 @import url(../blocks/burger-menu/__link/burger-menu__link.css);
 @import url(../blocks/burger-menu/__enroll-button/burger-menu__enroll-button.css);
 @import url(../blocks/burger-menu/__close-button/burger-menu__close-button.css);
-@import url(../blocks/burger-menu/__button/burger-menu__button.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__photo/lead__photo.css);
 @import url(../blocks/lead/__container/lead__container.css);
@@ -80,7 +79,6 @@
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__logo-container/partners__logo-container.css);
 @import url(../blocks/partners/__border/partners__border.css);
-@import url(../blocks/partners/__logo-link/partners__logo-link.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
 @import url(../blocks/principles/principles.css);
 @import url(../blocks/principles/_without-border/principles_without-border.css);
