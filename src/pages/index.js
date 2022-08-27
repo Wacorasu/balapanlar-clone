@@ -6,6 +6,7 @@ import {Header} from '../components/Header.js';
 import {gsap} from "../../gsap-member/src/all";
 import {ScrollTrigger} from '../../gsap-member/src/all';
 
+
 gsap.registerPlugin(ScrollTrigger);
 const cards = gsap.utils.toArray(".horiz-scroll__card");
 const matchMedia = gsap.matchMedia();
