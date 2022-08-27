@@ -1,5 +1,5 @@
 .lead__telegram-button {
-    background-color: #0B0B0B;
+    background-color: #252525;
     min-width: 156px;
     max-width: 450px;
     height: 52px;
@@ -20,7 +20,7 @@
 }
 
 .lead__telegram-button:hover {
-    background-color: #333333;
+    background-color: #353535;
 }
 
 @media (max-width: 768px) {

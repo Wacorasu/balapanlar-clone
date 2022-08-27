@@ -3,13 +3,6 @@
     gap: 30px;
 }
 
-@media (max-width: 1024px) {
-    .card__buttons {
-        align-self: center;
-    }
-}
-
-
 
 @media (max-width: 768px) {
     .card__buttons {
@@ -20,7 +13,6 @@
 @media (max-width: 450px) {
     .card__buttons {
         flex-direction: column-reverse;
-        align-self: flex-start;
         align-items: flex-start;
         gap: 20px;
     }
