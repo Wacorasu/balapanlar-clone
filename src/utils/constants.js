@@ -1,5 +1,5 @@
 const popupSelectorCourse = '.popup';
-const popupSelectorPartner = '.popup__partner';
+const popupSelectorPartner = '.popup_partner';
 const burgerMenuOpenButton = document.querySelector('.header__burger-btn');
 const principlesSection = document.querySelector('.principles');
 const burgerMenuLinksArray = document.querySelectorAll('.burger-menu a');
