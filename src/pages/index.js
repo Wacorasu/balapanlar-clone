@@ -3,10 +3,9 @@ import {popupSelectorCourse, popupSelectorPartner, burgerMenuOpenButton, princip
 import {Popup} from '../components/Popup.js';
 import {BurgerMenu} from '../components/BurgerMenu.js';
 import {Header} from '../components/Header.js';
-/* import {gsap} from "gsap";
-import {ScrollTrigger} from 'gsap/all'; */
-import {gsap} from "../../gsap-member/src/all";
-import {ScrollTrigger} from '../../gsap-member/src/all';
+import {gsap} from "gsap";
+import {ScrollTrigger} from 'gsap/all';
+
 
 gsap.registerPlugin(ScrollTrigger);
 const cards = gsap.utils.toArray(".horiz-scroll__card");
