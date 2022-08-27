@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 550px) {
     .lead__button {
         min-width: 224px;
         min-height: 52px;
