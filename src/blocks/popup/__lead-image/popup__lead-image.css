@@ -5,6 +5,12 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 800px) {
+  .popup__lead-image {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .popup__lead-image {
     width: 100%;

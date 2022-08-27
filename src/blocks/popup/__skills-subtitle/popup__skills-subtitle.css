@@ -13,8 +13,8 @@
   line-height: 20px;
   }
 
-  .popup__partner .popup__skills-subtitle {
+  .popup_partner .popup__skills-subtitle {
     font-size: 18px;
-  line-height: 22px;
+    line-height: 22px;
   }
 }
