@@ -1,5 +1,6 @@
 .about__article-image {
-    width: 595px;
+    width: 100%;
+    max-width: 595px;
     aspect-ratio: 1/0.88;
 }
 
