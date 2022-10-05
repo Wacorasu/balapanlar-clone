@@ -1,0 +1,5 @@
+.burger-menu_opened {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s, opacity .3s;
+}

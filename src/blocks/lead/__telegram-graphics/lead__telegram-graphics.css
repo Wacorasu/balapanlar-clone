@@ -1,0 +1,13 @@
+.lead__telegram-graphics {
+    height: 22px;
+    width: 22px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .lead__telegram-graphics {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

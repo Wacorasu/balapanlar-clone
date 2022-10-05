@@ -1,0 +1,21 @@
+.partners {
+    max-width: 1440px;
+    min-width: 320px;
+    background-color: #FFF;
+    padding: 80px calc(50% - 442.5px) 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .partners {
+    padding: 30px 15px 49px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}

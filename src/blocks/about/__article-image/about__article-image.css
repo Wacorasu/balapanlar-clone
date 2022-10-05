@@ -1,0 +1,12 @@
+.about__article-image {
+    width: 100%;
+    max-width: 595px;
+    aspect-ratio: 1/0.88;
+}
+
+@media (max-width: 600px) {
+    .about__article-image {
+        width: 90%;
+        aspect-ratio: 1/0.88;
+    }
+}

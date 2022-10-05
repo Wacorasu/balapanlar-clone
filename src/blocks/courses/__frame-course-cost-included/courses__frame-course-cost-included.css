@@ -1,0 +1,19 @@
+.courses__frame-course-cost-included{
+    display: flex;
+    padding: 18px 0;
+    max-width: 378px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+
+@media (max-width: 1280px) {
+    .courses__frame-course-cost-included {
+        max-width: 600px;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+}
+

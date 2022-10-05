@@ -1,0 +1,13 @@
+.burger-menu__logo-photo {
+    width: 150px;
+    height: 143px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (max-width: 425px) {
+    .burger-menu__logo-photo {
+        width: 105px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,13 @@
+.burger-menu__links {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 30px;
+    max-width: 290px;
+}
+
+@media (max-width: 425px) {
+    .burger-menu__links {
+        gap: 24px;
+    }
+}

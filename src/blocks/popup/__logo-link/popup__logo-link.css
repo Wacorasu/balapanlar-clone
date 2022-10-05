@@ -1,0 +1,9 @@
+.popup__logo-link {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.popup__logo-link:hover {
+    opacity: .7;
+    transition: .2s;
+}

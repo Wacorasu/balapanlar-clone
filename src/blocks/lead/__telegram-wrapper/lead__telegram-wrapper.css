@@ -1,0 +1,20 @@
+.lead__telegram-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .lead__telegram-wrapper {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__telegram-wrapper {
+        flex-direction: column;
+        max-width: 81.25%;
+        gap: 15px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,25 @@
+.burger-menu__enroll-button {
+    display: block;
+    width: 395px;
+    height: 104px;
+    box-sizing: border-box;
+    background-color: #252525;
+    border-radius: 50px;
+    line-height: 104px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 425px) {
+    .burger-menu__enroll-button {
+        width: 224px;
+        height: 52px;
+        font-size: 16px;
+        line-height: 52px;
+    }
+}

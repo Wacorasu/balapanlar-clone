@@ -1,0 +1,52 @@
+.lead__button {
+    border-radius: 50px;
+    background-color: #ff7628;
+    min-width: 395px;
+    min-height: 104px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 104px;
+    display: block;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin: 80px auto 0 auto;
+    padding: 0 20px 0 20px;
+    border: 0;
+    transition: background-color .5s ease;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.lead__button:hover {
+    background-color: #FF8540;
+}
+
+@media (max-width: 768px) {
+    .lead__button {
+        min-width: 395px;
+        min-height: 104px;
+        font-size: 28px;
+        line-height: 104px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__button {
+        min-width: 300px;
+        min-height: 70px;
+        font-size: 24px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 550px) {
+    .lead__button {
+        min-width: 224px;
+        min-height: 52px;
+        font-size: 16px;
+        line-height: 52px;
+        margin-top: 30px;
+    }
+}

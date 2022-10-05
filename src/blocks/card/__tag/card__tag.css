@@ -1,0 +1,19 @@
+.card__tag{
+    padding: 9px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 450px) {
+    .card__tag {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

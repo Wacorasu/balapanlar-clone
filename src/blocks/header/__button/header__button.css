@@ -1,0 +1,25 @@
+.header__button {
+  cursor: pointer;
+  padding: 16px 22px;
+  background: #252525;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  height: fit-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color .5s ease;
+}
+
+.header__button:hover {
+  background-color: #353535;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__button {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.popup__info-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #2B2B2B;
+  display: flex;
+}
+
+/* .popup__info-item::before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: #E7E7E7;
+  border-radius: 30px;
+  margin-right: 10px;
+} */
+
+@media screen and (max-width: 600px) {
+  .popup__info-item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.courses__frame-course-cost-button-mobile{
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .courses__frame-course-cost-button-mobile {
+        display: block;
+    }
+}

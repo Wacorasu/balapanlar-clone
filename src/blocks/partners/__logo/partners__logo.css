@@ -1,0 +1,10 @@
+.partners__logo {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .3s ease;
+  cursor: pointer;
+}
+
+.partners__logo:hover{
+  opacity: .7;
+}

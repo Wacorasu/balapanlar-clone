@@ -1,24 +1,361 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Balapanlar</title>
-</head>
-<body class="body">
-  <div class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balapanlar</title>
+    <meta
+      name="description"
+      content="Курсы программирования для детей от 8 лет"
+    />
+    <meta name="Author" content="7-th Teem YP-13" />
+    <link
+      rel="shortcut icon"
+      href="<%=require('./images/favicon.svg')%>"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="body">
     <header class="header">
-      
+      <div class="header__container">
+        <a href="/" class="header__logo-box">
+          <div class="header__logo"></div>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#courses" class="header__nav-link">Наши курсы</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#about" class="header__nav-link">О нас</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Команда</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Как нас найти</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Поддержать проект</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
+        <button class="header__burger-btn" type="button"></button>
+      </div>
+      <div class="burger-menu">
+        <div class="burger-menu__container">
+          <a class="burger-menu__logo" href="/"><img class="burger-menu__logo-photo" src="<%=require('./images/firstlogo.svg')%>" alt="Логотип проекта"></a>
+          <nav class="burger-menu__links">
+            <a href="#courses" class="burger-menu__link">Наши курсы</a>
+            <a href="#about" class="burger-menu__link">О нас</a>
+            <a href="#" class="burger-menu__link">Команда</a>
+            <a href="#" class="burger-menu__link">Как нас найти</a>
+            <a href="#" class="burger-menu__link">Поддержать проект</a>
+          </nav>
+          <a href="#" class="burger-menu__enroll-button">Записаться на курсы</a>
+          <button class="burger-menu__close-button" type="button"></button>
+        </div>
+      </div>
     </header>
     <main class="content">
-      <section class="lead"></section>
-      <section class="courses"></section>
-      <section class="about"></section>
-      <section class="partners"></section>
-      <section class="principles"></section>
-      <section class="popup"></section>
+      <section class="lead">
+        <div class="lead__photo">
+          <div class="lead__container">
+            <h1 class="lead__title">Досуг и курсы для детей в аулах и сёлах</h1>
+            <a class="lead__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
+            <div class="lead__telegram">
+              <div class="lead__telegram-wrapper">
+                <img class="lead__telegram-graphics" src="<%=require('./images/telegramlogo.svg')%>" alt="Логотип телеграмма">
+                <h3 class="lead__telegram-text">Следите за последними анонсами <wbr>и событиями “Уя” в нашем Telegram канале</h3>
+              </div>
+              <a class="lead__telegram-button" href="https://t.me/balapanlar" target="_blank">Подписаться</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="purpose">
+        <p class="purpose__text">Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие современные знания в ауле, и стать успешным и счастливым взрослым.</p>
+      </section>
+      <section class="courses" id="courses">
+        <h2 class="courses__title">Наши курсы</h2>
+        <div class="courses__frame-programming">
+          <h3 class="courses__frame-programming-title">Программирование</h3>
+          <p class="courses__frame-programming-description">Наши курсы программирования созданы в международной школе «Алгоритмика». Их программы уже успешно работают в 55 странах и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе каждое занятие детей отслеживают кураторы головного офиса и дают советы нашим преподавателям на местах.</p>
+          <div class="courses__frame-programming-cards">
+            <div class="card">
+              <div class="card__content">
+              <h4 class="card__title">Python Start</h4>
+              <ul class="card__time-age-list">
+                <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/littlemangraphics.svg')%>" alt="иконка группы"/>группы 8+ лет</li>
+                <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/sandwatchgraphics.svg')%>" alt="иконка времени"/>блоки по 3 месяца</li>
+              </ul>
+              <div class="card__tags">
+                <span class="card__tag">язык Python</span>
+                <span class="card__tag">разработка своих проектов</span>
+                <span class="card__tag">создание своего портфолио</span>
+                <span class="card__tag">создание web-сайтов</span>
+              </div>
+              <div class="card__description">
+                <p class="card__description-paragraph">Студенты к концу курса будут сами создавать приложения. А ещё они научатся:</p>
+                <ul class="card__text-list">
+                <li class="card__text-list-element">Разбираться в основах алгоритмики и объектно-ориентированного программирования&hellip;</li>
+                </ul>
+              </div>
+              </div>
+              <div class="card__buttons">
+                <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
+                <button class="card__button-detail" type="button" aria-label="Подробнее">Смотреть все навыки</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__content">
+              <h4 class="card__title">Создание web-сайтов</h4>
+              <ul class="card__time-age-list">
+                <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/littlemangraphics.svg')%>" alt="иконка группы"/>группы 11–13 лет</li>
+                <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/sandwatchgraphics.svg')%>" alt="иконка времени"/>1 год, блоками по 3 месяца</li>
+              </ul>
+              <div class="card__tags">
+                <span class="card__tag">web-разработка</span>
+                <span class="card__tag">основы программирования</span>
+              </div>
+              <div class="card__description">
+                <p class="card__description-paragraph">На нашем курсе студенты освоят создание web-сайтов, узнают об отличиях и особенностях платформ, поймут, как работает аналитика и алгоритмы поиска.</p>
+                <p class="card__description-paragraph">Это как самостоятельная, так и командная работа: разработка самого сайта, создание дизайна и контента позволяют окунуться с головой и приобрести действительно нужный и актуальный навык.</p>
+              </div>
+             </div>
+              <div class="card__buttons">
+                <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="courses__frame-cards">
+          <div class="card">
+            <div class="card__content">
+            <h4 class="card__title">3D технологии</h4>
+            <ul class="card__time-age-list">
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/littlemangraphics.svg')%>" alt="иконка группы"/>группы 8+ лет</li>
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/sandwatchgraphics.svg')%>" alt="иконка времени"/>блоки по 3 месяца</li>
+            </ul>
+            <div class="card__tags">
+              <span class="card__tag">разговорный язык</span>
+              <span class="card__tag">письмо</span>
+              <span class="card__tag">изучение культуры</span>
+            </div>
+            <div class="card__description">
+              <p class="card__description-paragraph">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            </div>
+           </div>
+            <div class="card__buttons">
+              <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+            <h4 class="card__title">Английский язык</h4>
+            <ul class="card__time-age-list">
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/littlemangraphics.svg')%>" alt="иконка группы"/>группы 6+ лет, 10+ лет, взрослые</li>
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/sandwatchgraphics.svg')%>" alt="иконка времени"/>блоки по 3 месяца</li>
+            </ul>
+            <div class="card__tags">
+              <span class="card__tag">разговорный язык</span>
+              <span class="card__tag">акценты</span>
+              <span class="card__tag">создание резюме</span>
+              <span class="card__tag">сленг</span>
+            </div>
+            <div class="card__description">
+              <p class="card__description-paragraph">Мы не только учим грамматике, но и смотрим фильмы, привыкаем к сленгу и деловой переписке, читаем статьи и общаемся онлайн с носителями языка из разных стран!</p>
+            </div>
+           </div>
+            <div class="card__buttons">
+              <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+            <h4 class="card__title">3D технологии</h4>
+            <ul class="card__time-age-list">
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/littlemangraphics.svg')%>" alt="иконка группы"/>группы 8+ лет</li>
+              <li class="card__time-age"><img class="card__time-age-icon" src="<%=require('./images/sandwatchgraphics.svg')%>" alt="иконка времени"/>блоки по 3 месяца</li>
+            </ul>
+            <div class="card__tags">
+              <span class="card__tag">3D моделирование</span>
+              <span class="card__tag">3D печать</span>
+              <span class="card__tag">работа в команде</span>
+              <span class="card__tag">проект</span>
+            </div>
+            <div class="card__description">
+              <p class="card__description-paragraph">Cтуденты освоят программы моделирования, сканирования и печати на 3D-принтере. К завершению курса студенты сами напечатают настоящие предметы.</p>
+            </div>
+           </div>
+            <div class="card__buttons">
+              <a class="button-to-course" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться</a>
+            </div>
+          </div>
+        </div>
+        <div class="courses__frame-course-cost">
+          <div class="courses__frame-course-cost-block-price">
+            <h3 class="courses__frame-course-cost-title">Стоимость&nbsp;курсов 3500 руб./мес</h3>
+              <a class="button-to-course courses__frame-course-cost-button-decktop" href="#">Оплатить курсы</a>
+          </div>
+          <div class="courses__frame-course-cost-included">
+            <h3 class="courses__frame-course-cost-included-title">Что входит в стоимость?</h3>
+            <ul class="courses__frame-course-cost-list">
+              <li class="courses__frame-course-cost-included-list-element">2 занятия в неделю по 2 часа</li>
+              <li class="courses__frame-course-cost-included-list-element">Небольшие группы до 10 чел.</li>
+              <li class="courses__frame-course-cost-included-list-element">1 личная консультация в месяц для студентов курсов</li>
+              <li class="courses__frame-course-cost-included-list-element">Снэки, вода, чай на нашей кухне</li>
+              <li class="courses__frame-course-cost-included-list-element">1 консультация для родителей о курсе и достижениях студентов</li>
+            </ul>
+          </div>
+          <div class="courses__frame-course-cost-not-included">
+            <h3 class="courses__frame-course-cost-included-title">Что не входит в стоимость?</h3>
+            <ul class="courses__frame-course-cost-list">
+              <li class="courses__frame-course-cost-not-included-list-element">Трансфер из вашего аула к центру</li>
+              <li class="courses__frame-course-cost-not-included-list-element">Индивидуальные занятия</li>
+              <li class="courses__frame-course-cost-not-included-list-element">Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в год в начале курса)</li>
+            </ul>
+          </div>
+          <a class="button-to-course courses__frame-course-cost-button-mobile" href="#">Оплатить курсы</a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about__title">О нас</h2>
+        <p class="about__text">Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно развиваться</p>
+        <ul class="about__article-wrapper">
+          <li class="about__article">
+            <img src="<%=require('./images/centruya.jpg')%>" alt="Досуговый центр УЯ" class="about__article-image">
+            <p class="about__article-text">— это место для общения, учёбы, встреч и досуга аульских детей. В наши летние школы мы тоже привозим самые разные практики, чтобы наши студенты могли попробовать то, что в их ауле/селе недоступно — это совершенно бесплатно</p>
+            <ul class="about__article-brief">
+              <li class="about__article-brief-text">Аул Икон-Халк, Карачаево-Черкесия</li>
+              <li class="about__article-brief-text">Занятия весь год</li>
+              <li class="about__article-brief-text">Углублённый подход к темам</li>
+              <li class="about__article-brief-text">Небольшие группы</li>
+              <li class="about__article-brief-text">Местные преподаватели, которые всегда на связи</li>
+              <li class="about__article-brief-text">Постоянная площадка, где все могут приходить в любое время, общаться, учиться и учить, читать книги, смотреть кино и слушать интересные лекции</li>
+            </ul>
+          </li>
+          <li class="about__article">
+            <img src="<%=require('./images/summerschools.jpg')%>" alt="Летние школы Балапанлар" class="about__article-image">
+            <p class="about__article-text">— это 12-дневная неформальная программа для детей в аулах и сёлах. Наша команда и преподаватели приезжают к местным детям и проводят с ними самые разные занятия: астрономия, математика, языки, йога, театр, музыка и др.</p>
+            <ul class="about__article-brief">
+              <li class="about__article-brief-text">Аул Икон-Халк, Карачаево-Черкесия</li>
+              <li class="about__article-brief-text">Занятия только в каникулы</li>
+              <li class="about__article-brief-text">Много разных занятий сразу</li>
+              <li class="about__article-brief-text">Небольшие группы, но много участников сразу</li>
+              <li class="about__article-brief-text">Преподаватели со всей России, вдохновляющие своим примером</li>
+              <li class="about__article-brief-text">Компания совершенно разных талантливых людей, с которыми можно воплотить самую дерзкую идею</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="partners">
+        <h2 class="partners__title">Наши партнеры</h2>
+        <ul class="partners__logo-container">
+          <li class="partners__border">
+            <img src="<%=require('./images/lectureswithoutborders.jpg')%>" alt="Логтип LecturesWithoutBorders" class="partners__logo"/>
+          </li>
+          <li class="partners__border">
+            <img src="<%=require('./images/openhorizonts.jpg')%>" alt="Логтип Открывая горизонты" class="partners__logo"/>
+          </li>
+          <li class="partners__border">
+            <a class="partners__logo-link" href="https://himbio4you.ru/" target="_blank">
+              <img src="<%=require('./images/himbio.jpg')%>" alt="Логтип ХимБио" class="partners__logo"/>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="principles">
+        <h2 class="principles__title">Наши принципы</h2>
+        <ul class="horiz-scroll">
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/actualknowledge.png')%>" alt="Актуальные знания и навыки"/>
+            <h3 class="horiz-scroll__card-title">Актуальные знания и навыки</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/equalaccess.png')%>" alt="Равный доступ к образованию"/>
+            <h3 class="horiz-scroll__card-title">Равный доступ к образованию</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/investindevelopment.png')%>" alt="Инвестируем в развитие местных специалистов и экпертов"/>
+            <h3 class="horiz-scroll__card-title">Инвестируем в развитие местных специалистов и экпертов</h3>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer"></footer>
-  </div>
-</body>
+
+    <div class="popup">
+      <div class="popup__container">
+        <h2 class="popup__title">Python Start</h2>
+        <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+        <ul class="popup__info">
+          <li class="popup__info-item">
+            <img src="<%=require('./images/littlemangraphics.svg')%>" class="popup__info-item-image" alt="фигурка человека">
+            группы 8+ лет
+          </li>
+          <li class="popup__info-item">
+            <img src="<%=require('./images/sandwatchgraphics.svg')%>" class="popup__info-item-image" alt="песочные часы">
+            блоки по 3 месяца</li>
+        </ul>
+        <ul class="popup__tags">
+          <li class="popup__tag">язык Python</li>
+          <li class="popup__tag">разработка своих проектов</li>
+          <li class="popup__tag">создание своего портфолио</li>
+          <li class="popup__tag">создание web-сайтов</li>
+        </ul>
+        <p class="popup__skills-subtitle">Студенты к концу курса будут сами создавать приложения. А ещё они научатся:</p>
+        <ul class="popup__skills">
+          <li class="popup__skill">Разбираться в основах алгоритмики и объектно-ориентированного программирования</li>
+          <li class="popup__skill">Разрабатывать графические интерактивные игры для ПК, используя библиотеку PyGame</li>
+          <li class="popup__skill">Работать с графикой и использовать библиотеку Turtle</li>
+          <li class="popup__skill">Решать реальные задачи, используя Python, и применять итеративный подход</li>
+          <li class="popup__skill">Применять принципы проектной работы при создании проектов</li>
+          <li class="popup__skill">Писать и читать код на языке Python и работать со структурами данных</li>
+          <li class="popup__skill">Разрабатывать сложные игры и приложения для ПК, используя библиотеки PyGame и PyQT</li>
+          <li class="popup__skill">Проектировать интерфейсы</li>
+          <li class="popup__skill">Автоматизировать работу с графическими файлами</li>
+          <li class="popup__skill">Работать в команде и создавать проекты от идеи до их публичной презентации</li>
+        </ul>
+        <a class="popup__enroll-button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">
+          Записаться
+        </a>
+
+      </div>
+    </div>
+
+    <div class="popup popup_partner popup_lectureswithoutborders">
+      <div class="popup__container">
+        <img src="<%=require('./images/lectureswithoutborders.jpg')%>" alt="лого партнера" class="popup__lead-image">
+        <button class="popup__close-button" type="button"></button>
+        <p class="popup__skills-subtitle">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</p>
+        <a class="popup__enroll-button" href="#" target="_blank">
+          Cайт партнёра
+        </a>
+      </div>
+    </div>
+    <div class="popup popup_partner popup_openhorizons">
+      <div class="popup__container">
+        <img src="<%=require('./images/openhorizonts.jpg')%>" alt="лого партнера" class="popup__lead-image">
+        <button class="popup__close-button" type="button"></button>
+        <p class="popup__skills-subtitle">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.<br/>
+          Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
+        <a class="popup__enroll-button" href="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/" target="_blank">
+          Cайт партнёра
+        </a>
+      </div>
+    </div>
+    <div class="popup popup_partner popup_himbio">
+      <div class="popup__container">
+        <img src="<%=require('./images/himbio.jpg')%>" alt="лого партнера" class="popup__lead-image">
+        <button class="popup__close-button" type="button"></button>
+        <p class="popup__skills-subtitle">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</p>
+        <a class="popup__enroll-button" href="https://himbio4you.ru/" target="_blank">
+          Cайт партнёра
+        </a>
+      </div>
+    </div>
+  </body>
 </html>

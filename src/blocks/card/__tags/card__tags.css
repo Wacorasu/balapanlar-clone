@@ -1,0 +1,14 @@
+.card__tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 450px) {
+    .card__tags {
+        margin-bottom: 20px;
+        gap: 3px;
+    }
+}
